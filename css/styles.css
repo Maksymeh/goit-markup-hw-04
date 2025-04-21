@@ -1,0 +1,146 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+}
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+.logo {
+    margin-right: 76px;
+}
+.page-nav {
+    display: flex;
+}
+.page-nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navigation .nav-item a {
+    color: blue;
+    /* Змінює колір тексту */
+    position: relative;
+}
+
+.navigation .nav-item:first-child a::after {
+    content: "";
+    display: block;
+    width: 40%;
+    /* Ширина смужки */
+    height: 4px;
+    /* Товщина */
+    background-color: blue;
+    /* Колір смужки */
+    border-radius: 2px;
+    /* Закруглені краї */
+    position: absolute;
+    bottom: -5px;
+    /* Відстань від тексту */
+    left: 50%;
+    transform: translateX(-50%);
+    /* Центрування */
+}
+
+.contacts {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-list {
+display: flex;
+gap:40px;
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E2F42B2;
+    background-image: url("../images/people-office.png");
+    
+    width: 1440px;
+    height: 600px; 
+    }
+    .main-button {
+        display: block;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: var(--iris);
+        border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;;
+    }
+    .service-list {
+        display: flex;
+    }
+    
+   .our-team-container {
+       text-align: center;
+       
+   }
+
+   .our-team-container ul {
+       display: flex;
+   }
+
+  .our-portfolio-container {
+    text-align: center;
+  }
+  .our-portfolio-container ul {
+    display:flex;
+
+  }
+  
+ 
+
+  .section-footer {
+    display: flex;
+    width: 1440px;
+    height: 312px;
+    background-color: #2E2F42;
+  }
+
+  .social-media-container ul {
+    display: flex;
+  }
+  .footer-text {
+    color: #F4F4FD;
+  }
+  .social-media-text {
+    color: #FFFFFF;
+  }
+
+  .icon-media {
+    fill: #F4F4FD;
+    background-color: #4D5AE5;
+    
+  } 
